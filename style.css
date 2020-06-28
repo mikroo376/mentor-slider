@@ -28,7 +28,6 @@ body {
   width: 80vw;
   height: 60vh;
   background-color: #fff;
-  /* border: 1px solid black; */
 }
 
 .slider__bg {
@@ -73,7 +72,6 @@ body {
 .quote-text {
   margin-bottom: 2rem;
   font-weight: 300;
-  /* font-size: 0.8em; */
 }
 
 .author {
@@ -88,11 +86,6 @@ body {
   color: hsl(240, 18%, 77%);
 }
 
-/* 
-- Dark Blue: hsl(240, 38%, 20%)
-- Grayish Blue: hsl(240, 18%, 77%)
-*/
-
 .buttons {
   position: absolute;
   top: 84%;
@@ -104,8 +97,6 @@ body {
   background-color: #fff;
   padding: 1rem 1.5rem;
   border: none;
-  /* border: none; */
-  /* border-top-left-radius: 50%; */
 }
 
 .prevBtn:hover,
@@ -149,7 +140,6 @@ body {
     height: 5rem;
     top: 57%;
     left: 38%;
-    /* transform: translate(-50%, -50%); */
   }
 
   .slider__text {
@@ -181,11 +171,5 @@ body {
   .buttons {
     top: 45%;
     left: 40%;
-  }
-
-  .prevBtn:hover,
-  .nextBtn:hover {
-    cursor: pointer;
-    background-color: rgba(207, 204, 204, 0.657);
   }
 }
